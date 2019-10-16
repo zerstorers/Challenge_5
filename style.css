@@ -1,3 +1,7 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 /* ---------Général---------- */
 
 .nav, .aside, .header, .footer {
@@ -28,6 +32,10 @@
     justify-content: center;
     padding: 0;
 }
+
+.rodneyy{
+    margin-bottom: -45%;
+}
 .nav {
     padding: 0;
     display: flex;
@@ -39,12 +47,88 @@
     background-color: black;
     color: white;
 }
+.card h4{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.card h2{
+    font-size: 1.7rem;
+}
+
 
 /* -------Fin nav + header ------- Début aside----------- */
 
 .aside, .aside ul {
     padding: 0;
 }
-.aside li, .aside p, .aside h3, .aside img, .aside h4, .aside input{
+.inaside li, .inaside p, .inaside h3, .inaside img, .inaside h4, .inaside input, .inaside > a{
     padding:0.5rem 0 0.5rem 2rem;
+}
+
+.inaside p{
+    padding-right: 2rem;
+}
+
+.inaside input{
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 5px;
+    background-color: #191919;
+    border: 1px solid #464646;
+    padding: 0 1rem;
+}
+
+.inaside img{
+    width: 80%;
+}
+
+.inaside ul li{
+    border-top: 1px solid #464646;
+}
+
+.lastli{
+    border-bottom: 1px solid #464646;
+}
+
+
+.audiotheme, .audiotheme img {
+    width: 80%;
+    margin: auto;
+}
+
+
+.audiotheme, .audiotheme p:nth-child(1){
+    margin-top: 4rem;
+}
+
+.audiotheme h1{
+    margin-bottom: 3rem;
+}
+
+.upcoming{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    border-top: 5px solid black;
+}
+
+.upcoming img{
+    width: 100%; 
+}
+
+.fa-play{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.upcoming h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.upcoming a, .audiotheme a{
+    color: #4AA02F;
 }
