@@ -1,0 +1,50 @@
+/* ---------Général---------- */
+
+.nav, .aside, .header, .footer {
+    background-color: black;
+}
+.nav li, .aside li, .header li {
+    list-style: none;
+    padding: 1.1rem 0;
+}
+.nav a, .aside a, .header a, .aside h3, .aside p, .aside h4, .footer {
+    text-decoration: none;
+    color: white;
+}
+.aside li:hover, .nav li:hover {
+    background-color: #4AA02F;
+}
+
+/* -------Fin général------Début nav + header --------- */
+
+.nav li {
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.nav {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.card {
+    width: 34%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+/* -------Fin nav + header ------- Début aside----------- */
+
+.aside, .aside ul {
+    padding: 0;
+}
+.aside li, .aside p, .aside h3, .aside img, .aside h4, .aside input{
+    padding:0.5rem 0 0.5rem 2rem;
+}
