@@ -18,6 +18,10 @@ body{
 .aside li:hover, .nav li:hover {
     background-color: #4AA02F;
 }
+.aside h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
 
 /* -------Fin général------Début nav + header --------- */
 
@@ -28,14 +32,17 @@ body{
     align-items: center;
 }
 .header {
-    display: flex;
-    justify-content: center;
     padding: 0;
+    background-color: #2a2a2a;
+}
+.titlenone{
+    color: white;
+    text-align: left;
+    width: 51%;
+    margin-top: 1rem;
+    display: none;
 }
 
-.rodneyy{
-    margin-bottom: -45%;
-}
 .nav {
     padding: 0;
     display: flex;
@@ -54,7 +61,10 @@ body{
 .card h2{
     font-size: 1.7rem;
 }
-
+.inaside h4 {
+    font-size: 1rem;
+    font-weight: bolder;
+}
 
 /* -------Fin nav + header ------- Début aside----------- */
 
@@ -90,7 +100,7 @@ body{
     border-bottom: 1px solid #464646;
 }
 
-
+/* ------Fin Aside--------Début main--------- */
 .audiotheme, .audiotheme img {
     width: 80%;
     margin: auto;
@@ -131,4 +141,28 @@ body{
 
 .upcoming a, .audiotheme a{
     color: #4AA02F;
+}
+
+/* -----fin ordi------début médiaqueries--------- */
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .nav li {
+        padding: 0;
+    }
+    .nav i {
+        padding: 0 0.5rem;
+    }
+
+}
+@media screen and (max-width : 767px) {
+    .titlenone{
+        color: white;
+        text-align: left;
+        margin-top: 1rem;
+        width: 100%;
+        display: initial;
+    }
+    nav:not(.fa-search) {
+        display: none;
+    }
 }
